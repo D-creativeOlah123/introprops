@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Button from './Button/Button'
-import Input from './INPUT/Input'
+// import Inputvalue from './INPUT//Inputvalue'
 
 const Input = () => {
     const [input1, setInput1] = useState("")
     const [input2, setInput2] = useState("")
     const [allUser, setAllUser] = useState([])
     const [buttonInp, setButtonInp] = useState("")
+   
    
 
     const displayinput = () => {
@@ -35,13 +36,17 @@ const Input = () => {
     const signup =()=>{
       alert('signup.....')
     }
+    const handleChange = (e) => {
+  setUsername(e.target.value);
+};
+
 
   return (
     <div>
         <h1>Input component</h1>
         <input type="text" onChange={(e) => setInput1(e.target.value)} />
         <input type="text" onChange={(e) => setInput2(e.target.value) } />
-        {/* <Input type="tecnxt" value="name" onChange={handleChange} /> */}
+      {/* <Input type="text" value={username} onChange={handleChange} /> */}
 
          <Button func={signup} sty= "btn btn-success" text = "signup"/>
          <Button func={function () {
