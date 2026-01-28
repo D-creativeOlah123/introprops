@@ -1,10 +1,10 @@
 import React from "react";
 
-const Inputvalue = (props) => {
+const Inputvalue = ({value,className,onChange,type,placeholder}) => {
     return(
         <div>
-            <input onChange={props.onChange} type={props.type} value={props.value}  />
-            <button onClick={props.funct}> {props.text}</button>
+            <input className="className" onChange={onChange} type={type} value={value} placeholder={placeholder} />
+         
         </div>
     )
 }

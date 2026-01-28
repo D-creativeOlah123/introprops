@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 
+
 const Array = () => {
      const [array, setArray] = useState("")
      const[allArray, setAllArray] = useState([])
@@ -22,6 +23,7 @@ const Array = () => {
                 </div>
             ))}
         </div>
+      
     </div>
   )
 }
