@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: lightgreen;
+}
+
+.post-box{
+    width: 100%;
+    padding: 30px;
+    display: flex; 
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    background-color: rgb(51, 153, 127);
+}
+ .post{
+    width: 30%;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    height: 500px;
+    
+}
+ .post h2{
+    font-size: 20px;
+    color: yellow;
+ }
+ .post p{
+    font-size: 16px;
+    color: white;
+ }
+ .post b{
+    font-size: 18px;
+    color: orange;
+ }
