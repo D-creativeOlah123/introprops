@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: rebeccapurple;
+}
+.music-app{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cover{
+    width: 200px;
+}
+.music-info{
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}

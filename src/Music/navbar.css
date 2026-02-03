@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20PX;
+    width: 100%;
+    padding:  20px 10px;
+  
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.right{
+    display: flex;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    color: #363636;
+}
+.home{
+    width: 25px;
+}
