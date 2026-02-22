@@ -11,7 +11,7 @@ function Home() {
         email: "",
         password: ""
     })
-    const [allUser, setAllUser] = ([])
+    const [allUser, setAllUser] = useState([])
     console.log(username, "The variable");
     console.log(setUsername, "The function that update the variables");
     const [show,setShow] = useState(false)

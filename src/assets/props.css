@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
    
     background-color: lightgreen;
-}
+} */
 
-.post-box{
+/* .post-box{
     width: 100%;
     padding: 30px;
     display: flex; 
@@ -17,9 +17,9 @@ body{
     flex-wrap: wrap;
     gap: 20px; 
     background-color: rgb(51, 153, 127);
-}
+} */
  .post{
-    width: 30%;
+    /* width: 30%; */
     background-color: tomato;
     padding: 10px;
     border-radius: 20px;

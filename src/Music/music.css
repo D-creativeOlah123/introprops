@@ -5,15 +5,65 @@
 }
 body{
    
-    background-color: rebeccapurple;
+    background-color: #121212;
 }
 .music-app{
     display: flex;
     flex-wrap: wrap;
 }
-.cover{
+.music{
     width: 200px;
+    padding: 10px;
+    border-radius: 10px;
 }
+.music:hover{
+    /* transform: scale(1.05); */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+.playbutton{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+}
+
+.music .play {
+    position: relative;
+}
+
+.music .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    /* background-color: #1db954; */
+    border-radius: 100%;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    transition: all ease 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.music img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* .cover{
+    width: 200px;
+} */
 .music-info{
     color: white;
     margin-left: 20px;

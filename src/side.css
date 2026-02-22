@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+
+}
+.logo img{
+    width: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.ico{
+    width: 30px;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+}

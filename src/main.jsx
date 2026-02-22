@@ -8,21 +8,19 @@ import Propsinput from './assets/propsinput.jsx'
 import Home from './Home.jsx'
 import Musicprops from './Music/musicprops.jsx'
 import Navbar from './Music/navbar.jsx'
-
+import { BrowserRouter } from 'react-router-dom'
+import Navbarcomponent from './Navbarcomponent.jsx'
+import Footer from './footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    {/* <Input /> */}
-    {/* <Propsinput></Propsinput> */}
-
-    {/* <Home></Home> */}
-    <Navbar></Navbar>
-   <Musicprops></Musicprops>
-
-
+    {/* <Navbar></Navbar> */}
+   
+   
     
-
-    {/* <Array /> */}
+    <BrowserRouter>
+       <App />
+   </BrowserRouter>
+  
   </StrictMode>,
 )

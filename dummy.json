@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "username": "olaide",
+      "email": "aderojuolaide780@gmail.com",
+      "password": "Olaideatechis@",
+      "id": 1
+    },
+    {
+      "username": "Xyleek",
+      "email": "anuoluwapoolaide@gmail.com",
+      "password": "Olaideatechis@",
+      "id": 2
+    }
+  ],
+  "todo": [
+    {
+      "title": "hey",
+      "description": "there",
+      "id": 1
+    }
+  ]
+}

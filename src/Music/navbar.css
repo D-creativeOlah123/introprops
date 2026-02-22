@@ -10,7 +10,24 @@ nav{
     border-radius: 20PX;
     width: 100%;
     padding:  20px 10px;
+
   
+}
+.input{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    /* width: 200px; */
+    background-color: #363636;
+    gap: 6px;
+}
+.input input{
+    background-color: #363636;
+    border: none;
+    outline: none;
+    color: white;
+    /* width: 350px; */
 }
 .left{
     display: flex;
@@ -21,18 +38,27 @@ nav{
 }
 .right{
     display: flex;
-     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    /* background-color: aqua; */
 }
-.right ul{
+.icon{
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 20px;
     color: #363636;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    padding: 10px;
+}
+li{
+    color: white;
+    cursor: pointer;
+    /* background-color: aquamarine; */
 }
 .home{
     width: 25px;
